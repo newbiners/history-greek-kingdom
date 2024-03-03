@@ -80,6 +80,9 @@ useEffect(() => {
   console.log(isClick, "click")
   return (
     <main className='w-full h-full overflow-x-hidden relative bg-black'>
+      <section className='border-2 absolute bottom-16 left-16 z-20 cursor-pointer border-white rounded-full h-11 w-36 flex items-center justify-center'>
+        <a target="_blank" href='https://sketchfab.com/3d-models/cemetery-angel-miller-3b7e4e4a84f94f0d876e21e853eb8db8' className='kalnia text-black text-base bg-white h-9 flex items-center justify-center w-[133px] rounded-full'>Link Asset 3D</a>
+      </section>
       <section className='absolute h-16 w-16 border-2 p-1 border-white rounded-xl top-8 left-8'>
         <p className=' kalnia text-white text-xl font-semibold'>His<br/>tory</p>
       </section>
