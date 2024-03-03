@@ -1,9 +1,10 @@
+/* eslint-disable react/prop-types */
 import { Html } from "@react-three/drei";
 
 const Loading = () => {
     return(
         <Html>
-            <p>Loading...</p>
+           <div className="traffic-loader"></div>
         </Html>
     )
 }

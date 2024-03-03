@@ -5,11 +5,11 @@ import Loading from './components/loading';
 import Stute from './models/stute';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import { Html } from '@react-three/drei';
 function App() {
   const [count, setCount] = useState([0, 1, 9]);
   const [isClick, setIsClick] = useState(1)
-
+  const [fallbackFinished, setFallbackFinished] = useState(false);
 useEffect(() => {
   AOS.init();
 },[])
@@ -78,6 +78,9 @@ useEffect(() => {
   const Greek = ["G","r", "e", "e", "k"];
   const Kingdom = ["K", "i", "n", "g", "d", "o", "m"]
   console.log(isClick, "click")
+
+
+  console.log(fallbackFinished, "cekl")
   return (
     <main className='w-full h-full overflow-x-hidden relative bg-black'>
       <section className='border-2 absolute bottom-16 left-16 z-20 cursor-pointer border-white rounded-full h-11 w-36 flex items-center justify-center'>
@@ -109,7 +112,7 @@ useEffect(() => {
           className="h-full w-screen"
           camera={{ near: 0.1, far: 1000 }}
         >
-          <Suspense fallback={<Loading />}>
+          <Suspense fallback={<Loading/>}>
             <spotLight position={count} intensity={150} />
             <Stute
               position={[0, -6, 0]}
