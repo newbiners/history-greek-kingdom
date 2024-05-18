@@ -1,4 +1,4 @@
-## Cara menjalankan Aplikasi React Native
+## Cara menjalankan Aplikasi React + Vite + Three fiber
 ### A. Manual Testing Aplikasi
 #### Persyaratan:
 - Node.js versi 18.17 atau di atasnya
