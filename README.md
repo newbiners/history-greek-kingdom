@@ -1,9 +1,11 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# history-greek-kingdom
+## Cara menjalankan Aplikasi React Native
+### A. Manual Testing Aplikasi
+#### Persyaratan:
+- Node.js versi 18.17 atau di atasnya
+- Code Editor seperti VS Code, IntelliJ IDEA, dll
+  
+##### Langkah-langkah menjalankannya:
+- Masuk ke direktori folder.
+- Lakukan perintah npm install.
+- Tunggu hingga proses selesai.
+- Setelah selesai, jalankan npm run dev.
